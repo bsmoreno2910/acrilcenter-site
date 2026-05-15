@@ -744,9 +744,10 @@ function Hero() {
             gridTemplateColumns: { xs: "1fr", md: "1.05fr 1fr" },
             alignItems: "center",
             gap: { xs: 5, md: 8 },
+            minWidth: 0,
           }}
         >
-          <Stack spacing={{ xs: 3, md: 3.4 }} sx={{ maxWidth: 620 }}>
+          <Stack spacing={{ xs: 3, md: 3.4 }} sx={{ maxWidth: 620, minWidth: 0, width: "100%" }}>
             <Stack direction="row" spacing={1.2} sx={{ alignItems: "center" }}>
               <Box className="hero-dot" />
               <Typography variant="overline" sx={{ color: "primary.main" }}>
@@ -754,7 +755,7 @@ function Hero() {
               </Typography>
             </Stack>
 
-            <Typography component="h1" variant="h1" sx={{ color: "text.primary" }}>
+            <Typography component="h1" variant="h1" sx={{ color: "text.primary", maxWidth: "100%", overflowWrap: "break-word" }}>
               30 anos transformando <Box component="span" className="hero-gradient-word">acrílicos</Box> em sonhos.
             </Typography>
 
@@ -763,6 +764,8 @@ function Hero() {
               sx={{
                 color: "text.secondary",
                 maxWidth: 540,
+                width: "100%",
+                overflowWrap: "break-word",
               }}
             >
               Fábrica própria em São Paulo, atendimento para todo o Brasil.
@@ -770,12 +773,13 @@ function Hero() {
               projetos sob medida em acrílico.
             </Typography>
 
-            <Stack direction={{ xs: "column", sm: "row" }} spacing={1.4} sx={{ pt: 0.5 }}>
+            <Stack direction={{ xs: "column", sm: "row" }} spacing={1.4} sx={{ pt: 0.5, minWidth: 0, width: "100%" }}>
               <Button
                 href="#formulario"
                 size="large"
                 variant="contained"
                 endIcon={<ArrowForwardIcon />}
+                sx={{ width: { xs: "100%", sm: "auto" }, maxWidth: "100%" }}
               >
                 Solicitar orçamento
               </Button>
@@ -788,6 +792,8 @@ function Hero() {
                 startIcon={<WhatsAppIcon />}
                 sx={{
                   color: "text.primary",
+                  width: { xs: "100%", sm: "auto" },
+                  maxWidth: "100%",
                   "&:hover": { bgcolor: "rgba(15,23,42,0.05)" },
                 }}
               >
@@ -831,7 +837,7 @@ function Hero() {
             </Stack>
           </Stack>
 
-          <Box className="hero-showcase" sx={{ position: "relative" }}>
+          <Box className="hero-showcase" sx={{ position: "relative", minWidth: 0, width: "100%" }}>
             <Box className="hero-showcase-card">
               <Box
                 component="img"

@@ -6,7 +6,7 @@ import AdminSection from "../components/admin/AdminSection";
 import AdminStatCard from "../components/admin/AdminStatCard";
 
 const adminChecklist = [
-  "Conferir se /admin esta protegido pelo Cloudflare Worker.",
+  "Conferir se /admin esta protegido pela Cloudflare Pages Function.",
   "Manter a senha real fora do repositorio e configurar somente em variavel de ambiente.",
   "Publicar o build depois de validar npm run typecheck.",
 ];
@@ -43,7 +43,7 @@ export default function Admin() {
             value="/admin"
           />
           <AdminStatCard
-            helper="Basic Auth via Cloudflare Worker."
+            helper="Basic Auth via Cloudflare Pages Function."
             icon={<ShieldCheck size={22} />}
             label="Protecao"
             value="Cloudflare"

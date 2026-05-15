@@ -11,9 +11,11 @@ if (!rootElement) {
   throw new Error("Elemento #root nao encontrado.");
 }
 
+const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, "");
+
 createRoot(rootElement).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename={baseUrl || undefined}>
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/admin/*" element={<Admin />} />

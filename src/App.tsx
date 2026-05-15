@@ -129,7 +129,7 @@ const services: Service[] = [
     title: "Displays e expositores",
     text: "Peças para vitrine, balcão, showrooms e pontos de venda com acabamento transparente e visual leve.",
     icon: <StorefrontOutlinedIcon />,
-    image: "assets/acrilcenter-display.jpg",
+    image: "assets/work/work-12.webp",
     alt: "Displays e expositores em acrílico transparente para produtos.",
   },
   {
@@ -137,7 +137,7 @@ const services: Service[] = [
     title: "Chapas, tubos e peças técnicas",
     text: "Cortes, formatos, suportes, bandejas, potes e componentes em acrílico para demandas específicas.",
     icon: <PrecisionManufacturingOutlinedIcon />,
-    image: "assets/acrilcenter-technical.jpg",
+    image: "assets/work/work-20.webp",
     alt: "Chapas, tubos e peças técnicas em acrílico.",
   },
   {
@@ -145,7 +145,7 @@ const services: Service[] = [
     title: "Caixas, urnas e barreiras",
     text: "Organização, proteção e separação para atendimento, lojas, escritórios, eventos e operações.",
     icon: <LayersOutlinedIcon />,
-    image: "assets/acrilcenter-protection.jpg",
+    image: "assets/work/work-08.webp",
     alt: "Caixas, urnas e barreiras em acrílico transparente.",
   },
   {
@@ -153,7 +153,7 @@ const services: Service[] = [
     title: "Placas, púlpitos e troféus",
     text: "Itens institucionais, comunicação visual e peças de apresentação com brilho e leitura limpa.",
     icon: <ArrowForwardIcon />,
-    image: "assets/acrilcenter-awards.jpg",
+    image: "assets/work/work-19.webp",
     alt: "Troféus, placas e púlpito em acrílico transparente.",
   },
 ];

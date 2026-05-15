@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.screenshots/
+.deploy-logs/
+.claude/
+assets-source/
+.env
+.env.*

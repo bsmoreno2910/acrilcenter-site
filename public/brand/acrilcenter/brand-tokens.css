@@ -1,0 +1,72 @@
+:root {
+  --acril-cristal: #F8FAFC;
+  --acril-cristal-soft: #F5F9FC;
+  --acril-azul-gelo: #C9EDFF;
+  --acril-ciano: #18CFFF;
+  --acril-ciano-alt: #45D7FF;
+  --acril-violeta: #7B63FF;
+  --acril-magenta: #D64CFF;
+  --acril-ambar: #FFB347;
+  --acril-grafite: #171C24;
+  --acril-chumbo: #202833;
+
+  --acril-font-display: "Inter Display", "Inter", "Montserrat", Arial, sans-serif;
+  --acril-font-body: "Inter", "Lato", Arial, sans-serif;
+
+  --acril-gradient-primary: linear-gradient(135deg, var(--acril-ciano) 0%, var(--acril-violeta) 64%, var(--acril-magenta) 100%);
+  --acril-gradient-luz: linear-gradient(135deg, var(--acril-ciano) 0%, var(--acril-violeta) 58%, var(--acril-ambar) 100%);
+  --acril-gradient-cristal: linear-gradient(135deg, rgba(255,255,255,.86), rgba(201,237,255,.42));
+
+  --acril-shadow-glow: 0 0 24px rgba(24,207,255,.34), 0 0 42px rgba(123,99,255,.20);
+  --acril-radius-sm: 12px;
+  --acril-radius-md: 20px;
+  --acril-radius-xl: 32px;
+  --acril-border-glass: 1px solid rgba(201,237,255,.34);
+}
+
+body {
+  font-family: var(--acril-font-body);
+  color: var(--acril-chumbo);
+  background: var(--acril-cristal);
+}
+
+.acril-bg-dark {
+  color: var(--acril-cristal);
+  background:
+    radial-gradient(circle at 18% 12%, rgba(24,207,255,.18), transparent 32%),
+    radial-gradient(circle at 86% 20%, rgba(214,76,255,.16), transparent 34%),
+    linear-gradient(135deg, #0B111A 0%, var(--acril-grafite) 100%);
+}
+
+.acril-logo {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+.acril-card-glass {
+  background: rgba(255,255,255,.08);
+  border: var(--acril-border-glass);
+  border-radius: var(--acril-radius-xl);
+  box-shadow: var(--acril-shadow-glow);
+  backdrop-filter: blur(18px);
+}
+
+.acril-title {
+  font-family: var(--acril-font-display);
+  letter-spacing: -0.04em;
+}
+
+.acril-button-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: .65rem;
+  border: 0;
+  border-radius: 999px;
+  padding: .9rem 1.25rem;
+  font-weight: 700;
+  color: var(--acril-grafite);
+  background: var(--acril-gradient-luz);
+  box-shadow: var(--acril-shadow-glow);
+}

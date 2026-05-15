@@ -1,0 +1,36 @@
+<svg width="760" height="176" viewBox="0 0 760 176" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Acrilcenter logo</title>
+  <desc id="desc">Horizontal Acrilcenter logo with translucent acrylic mark and wordmark.</desc>
+  <defs>
+    <linearGradient id="logoGlass" x1="26" y1="20" x2="112" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.92"/>
+      <stop offset="0.48" stop-color="#C8F7FF" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#F7FBFF" stop-opacity="0.18"/>
+    </linearGradient>
+    <linearGradient id="logoEdge" x1="29" y1="25" x2="108" y2="111" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="0.42" stop-color="#DDFBFF"/>
+      <stop offset="1" stop-color="#87929E"/>
+    </linearGradient>
+    <filter id="logoGlow" x="-10" y="-10" width="168" height="168" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0.784 0 0 0 0 0.969 0 0 0 0 1 0 0 0 0.2 0"/>
+      <feOffset dy="8"/>
+      <feGaussianBlur stdDeviation="16"/>
+      <feBlend in2="BackgroundImageFix" result="effect1_dropShadow"/>
+      <feBlend in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+    </filter>
+  </defs>
+  <rect width="760" height="176" rx="24" fill="#090A0C"/>
+  <g filter="url(#logoGlow)">
+    <path d="M32 31.5C32 23.4919 38.4919 17 46.5 17H96.5C104.508 17 111 23.4919 111 31.5V81.5C111 89.5081 104.508 96 96.5 96H46.5C38.4919 96 32 89.5081 32 81.5V31.5Z" fill="url(#logoGlass)" fill-opacity="0.78"/>
+    <path d="M32.75 31.5C32.75 23.9061 38.9061 17.75 46.5 17.75H96.5C104.094 17.75 110.25 23.9061 110.25 31.5V81.5C110.25 89.0939 104.094 95.25 96.5 95.25H46.5C38.9061 95.25 32.75 89.0939 32.75 81.5V31.5Z" stroke="url(#logoEdge)" stroke-width="1.5"/>
+    <path d="M50 50.5C50 44.1487 55.1487 39 61.5 39H90.5C96.8513 39 102 44.1487 102 50.5V79.5C102 85.8513 96.8513 91 90.5 91H61.5C55.1487 91 50 85.8513 50 79.5V50.5Z" fill="#090A0C" fill-opacity="0.24"/>
+    <path d="M50.75 50.5C50.75 44.5629 55.5629 39.75 61.5 39.75H90.5C96.4371 39.75 101.25 44.5629 101.25 50.5V79.5C101.25 85.4371 96.4371 90.25 90.5 90.25H61.5C55.5629 90.25 50.75 85.4371 50.75 79.5V50.5Z" stroke="#F7FBFF" stroke-opacity="0.42" stroke-width="1.5"/>
+    <path d="M33 102H90C98.2843 102 105 108.716 105 117V118H48C39.7157 118 33 111.284 33 103V102Z" fill="#C8F7FF" fill-opacity="0.15"/>
+    <path d="M33 102.75H90C97.8701 102.75 104.25 109.13 104.25 117V117.25H48C40.1299 117.25 33.75 110.87 33.75 103V102.75Z" stroke="#F7FBFF" stroke-opacity="0.22" stroke-width="1.5"/>
+  </g>
+  <text x="146" y="76" fill="#F7FBFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="46" font-weight="800" letter-spacing="0">Acrilcenter</text>
+  <text x="148" y="113" fill="#C1C8D2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="500" letter-spacing="0">Comercio de acrilico, pecas sob medida e comunicacao visual</text>
+  <path d="M149 132H618" stroke="#F7FBFF" stroke-opacity="0.16"/>
+</svg>

@@ -1,0 +1,28 @@
+{
+  "brand": "Acrilcenter",
+  "tagline": "Acrílico que transforma.",
+  "colors": {
+    "cristal": "#F8FAFC",
+    "azulGelo": "#C9EDFF",
+    "ciano": "#18CFFF",
+    "violeta": "#7B63FF",
+    "magenta": "#D64CFF",
+    "ambar": "#FFB347",
+    "grafite": "#171C24",
+    "chumbo": "#202833"
+  },
+  "gradients": {
+    "primary": "linear-gradient(135deg, #18CFFF 0%, #7B63FF 64%, #D64CFF 100%)",
+    "luz": "linear-gradient(135deg, #18CFFF 0%, #7B63FF 58%, #FFB347 100%)"
+  },
+  "typography": {
+    "display": "Inter Display, Inter, Montserrat, Arial, sans-serif",
+    "body": "Inter, Lato, Arial, sans-serif"
+  },
+  "logoFiles": {
+    "horizontalColor": "/brand/acrilcenter/logo/acrilcenter-logo-horizontal-color.svg",
+    "horizontalWhite": "/brand/acrilcenter/logo/acrilcenter-logo-horizontal-white.svg",
+    "iconColor": "/brand/acrilcenter/logo/acrilcenter-icon-color.svg",
+    "favicon": "/brand/acrilcenter/logo/acrilcenter-favicon.svg"
+  }
+}

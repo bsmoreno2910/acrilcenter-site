@@ -747,7 +747,10 @@ function Hero() {
             minWidth: 0,
           }}
         >
-          <Stack spacing={{ xs: 3, md: 3.4 }} sx={{ maxWidth: 620, minWidth: 0, width: "100%" }}>
+          <Stack
+            spacing={{ xs: 3, md: 3.4 }}
+            sx={{ maxWidth: { xs: "calc(100vw - 40px)", md: 620 }, minWidth: 0, width: "100%" }}
+          >
             <Stack direction="row" spacing={1.2} sx={{ alignItems: "center" }}>
               <Box className="hero-dot" />
               <Typography variant="overline" sx={{ color: "primary.main" }}>
@@ -755,7 +758,11 @@ function Hero() {
               </Typography>
             </Stack>
 
-            <Typography component="h1" variant="h1" sx={{ color: "text.primary", maxWidth: "100%", overflowWrap: "break-word" }}>
+            <Typography
+              component="h1"
+              variant="h1"
+              sx={{ color: "text.primary", maxWidth: { xs: "calc(100vw - 40px)", md: "100%" }, overflowWrap: "break-word" }}
+            >
               30 anos transformando <Box component="span" className="hero-gradient-word">acrílicos</Box> em sonhos.
             </Typography>
 
@@ -763,7 +770,7 @@ function Hero() {
               variant="h5"
               sx={{
                 color: "text.secondary",
-                maxWidth: 540,
+                maxWidth: { xs: "calc(100vw - 40px)", md: 540 },
                 width: "100%",
                 overflowWrap: "break-word",
               }}
@@ -773,7 +780,11 @@ function Hero() {
               projetos sob medida em acrílico.
             </Typography>
 
-            <Stack direction={{ xs: "column", sm: "row" }} spacing={1.4} sx={{ pt: 0.5, minWidth: 0, width: "100%" }}>
+            <Stack
+              direction={{ xs: "column", sm: "row" }}
+              spacing={1.4}
+              sx={{ pt: 0.5, minWidth: 0, width: "100%", maxWidth: { xs: "calc(100vw - 40px)", sm: "none" } }}
+            >
               <Button
                 href="#formulario"
                 size="large"
@@ -837,7 +848,10 @@ function Hero() {
             </Stack>
           </Stack>
 
-          <Box className="hero-showcase" sx={{ position: "relative", minWidth: 0, width: "100%" }}>
+          <Box
+            className="hero-showcase"
+            sx={{ position: "relative", minWidth: 0, width: "100%", maxWidth: { xs: "calc(100vw - 40px)", md: "none" } }}
+          >
             <Box className="hero-showcase-card">
               <Box
                 component="img"

@@ -709,7 +709,7 @@ function Header() {
 }
 
 const heroFeatureWorks = [
-  { image: "assets/work/work-19.webp", tag: "Letreiro premium" },
+  { image: "assets/work/work-24.webp", tag: "Piano em acrílico cristal" },
   { image: "assets/work/work-04.webp", tag: "Cenografia luminosa" },
   { image: "assets/work/work-23.webp", tag: "Ativação noturna" },
   { image: "assets/work/work-15.webp", tag: "Estande esportivo" },
@@ -836,7 +836,7 @@ function Hero() {
               <Box
                 component="img"
                 src={assetUrl(featured.image)}
-                alt="Letreiro em acrílico iluminado em ambiente de fábrica."
+                alt="Piano de cauda em acrílico cristal iluminado em palco."
                 loading="eager"
                 className="hero-showcase-image"
               />

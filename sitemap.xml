@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://acrilcenter.com.br/</loc>
+    <lastmod>2026-05-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://acrilcenter.com.br/assets/work/work-24.webp</image:loc>
+      <image:title>Piano de cauda em acrílico cristal</image:title>
+      <image:caption>Acrílico sob medida produzido pela Acrilcenter para empresas em todo o Brasil.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://acrilcenter.com.br/display-em-acrilico</loc>
+    <lastmod>2026-05-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://acrilcenter.com.br/assets/services/service-displays.png</image:loc>
+      <image:title>Displays em acrílico</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://acrilcenter.com.br/expositor-em-acrilico</loc>
+    <lastmod>2026-05-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://acrilcenter.com.br/assets/work/work-10.webp</image:loc>
+      <image:title>Expositor em acrílico</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://acrilcenter.com.br/chapa-de-acrilico</loc>
+    <lastmod>2026-05-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://acrilcenter.com.br/assets/services/service-technical.png</image:loc>
+      <image:title>Chapa de acrílico sob medida</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://acrilcenter.com.br/pecas-em-acrilico-sob-medida</loc>
+    <lastmod>2026-05-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.95</priority>
+    <image:image>
+      <image:loc>https://acrilcenter.com.br/assets/work/work-24.webp</image:loc>
+      <image:title>Peças em acrílico sob medida</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://acrilcenter.com.br/urna-em-acrilico</loc>
+    <lastmod>2026-05-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://acrilcenter.com.br/assets/services/service-protection.png</image:loc>
+      <image:title>Urna em acrílico transparente</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://acrilcenter.com.br/caixas-de-acrilico</loc>
+    <lastmod>2026-05-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://acrilcenter.com.br/assets/services/service-protection.png</image:loc>
+      <image:title>Caixas de acrílico sob medida</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://acrilcenter.com.br/placas-em-acrilico</loc>
+    <lastmod>2026-05-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.88</priority>
+    <image:image>
+      <image:loc>https://acrilcenter.com.br/assets/services/service-awards.png</image:loc>
+      <image:title>Placas em acrílico</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://acrilcenter.com.br/pulpito-em-acrilico</loc>
+    <lastmod>2026-05-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.86</priority>
+    <image:image>
+      <image:loc>https://acrilcenter.com.br/assets/services/service-awards.png</image:loc>
+      <image:title>Púlpito em acrílico cristal</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://acrilcenter.com.br/trofeus-em-acrilico</loc>
+    <lastmod>2026-05-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.84</priority>
+    <image:image>
+      <image:loc>https://acrilcenter.com.br/assets/services/service-awards.png</image:loc>
+      <image:title>Troféus em acrílico personalizados</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://acrilcenter.com.br/comunicacao-visual-em-acrilico</loc>
+    <lastmod>2026-05-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.88</priority>
+    <image:image>
+      <image:loc>https://acrilcenter.com.br/assets/work/work-16.webp</image:loc>
+      <image:title>Comunicação visual em acrílico</image:title>
+    </image:image>
+  </url>
+</urlset>
